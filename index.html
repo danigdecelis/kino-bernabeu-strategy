@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagnóstico de fuga de ingresos - Kino Bernabeu</title>
+<meta property="og:title" content="Diagnóstico de fuga de ingresos - Kino Bernabeu">
+<meta property="og:description" content="La lectura completa de tu diagnóstico, con tus propios números delante, preparada por Copy Estratega.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png">
+<meta property="og:url" content="https://danigdecelis.github.io/kino-bernabeu-strategy/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Diagnóstico de fuga de ingresos - Kino Bernabeu">
+<meta name="twitter:description" content="La lectura completa de tu diagnóstico, con tus propios números delante.">
+<meta name="twitter:image" content="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png">
+<link rel="icon" type="image/png" href="https://storage.googleapis.com/gpt-engineer-file-uploads/ENnY1cQr8yb82cqirDaLRejSItf1/uploads/1759866240739-LeadLinker%20Logo%20Favicon%20.png">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<style>
+:root{
+  --gold:#C9A84C;
+  --gold-dark:#A8893A;
+  --gold-light:rgba(201,168,76,0.08);
+  --gold-border:rgba(201,168,76,0.2);
+  --dark:#0A0A0A;
+  --dark-mid:#1A1A1A;
+  --body-text:#555555;
+  --muted:#999999;
+  --off-white:#F8F6F0;
+  --white:#FFFFFF;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;font-size:16px;line-height:1.75;color:var(--body-text);background:#fff;-webkit-font-smoothing:antialiased;}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,10,10,0.97);backdrop-filter:blur(16px);border-bottom:1px solid rgba(201,168,76,0.15);padding:0 40px;height:64px;display:flex;align-items:center;justify-content:flex-start;}
+.nav-logo img{height:36px;display:block;}
+
+.card{padding:80px 40px;border-bottom:1px solid rgba(0,0,0,0.05);}
+.card.dark{background:var(--dark);border-bottom:1px solid rgba(255,255,255,0.06);}
+.card.off-white{background:var(--off-white);}
+.container{max-width:800px;margin:0 auto;}
+
+.label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:var(--gold);margin-bottom:16px;}
+
+h1{font-family:'Playfair Display',serif;font-weight:800;font-size:clamp(32px,5vw,52px);letter-spacing:-0.5px;line-height:1.1;color:#fff;}
+h2{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(26px,4vw,38px);letter-spacing:-0.3px;line-height:1.15;margin-bottom:20px;color:var(--dark-mid);}
+h3{font-family:'Inter',sans-serif;font-weight:700;font-size:20px;margin-bottom:12px;color:var(--dark-mid);}
+h4{font-family:'Inter',sans-serif;font-weight:700;font-size:15px;color:var(--dark-mid);}
+.dark h2,.dark h3,.dark h4{color:#fff;}
+.dark p{color:rgba(255,255,255,0.7);}
+.off-white h2,.off-white h3{color:var(--dark-mid);}
+
+p{margin-bottom:18px;}
+p:last-child{margin-bottom:0;}
+strong{color:var(--dark-mid);font-weight:600;}
+.dark strong{color:#fff;}
+
+.hero-card{padding-top:140px;padding-bottom:100px;}
+.hero-card h1{margin-bottom:24px;}
+.hero-card .label{color:var(--gold);}
+.hero-subtitle{font-size:19px;color:rgba(255,255,255,0.7);line-height:1.6;max-width:680px;}
+.hero-meta{display:flex;gap:32px;margin-top:48px;padding-top:32px;border-top:1px solid rgba(201,168,76,0.2);flex-wrap:wrap;}
+.hero-meta-label{font-size:10px;font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:2px;margin-bottom:6px;}
+.hero-meta-val{font-size:14px;color:#fff;font-weight:500;}
+
+.chart-note{font-size:13px;color:var(--muted);line-height:1.55;margin-top:22px;text-align:center;max-width:580px;margin-left:auto;margin-right:auto;}
+.dark .chart-note{color:rgba(255,255,255,0.45);}
+.chart-lead{font-size:16px;line-height:1.7;max-width:640px;}
+
+/* RADAR mini-analisis */
+.dim-read{max-width:600px;margin:26px auto 0;}
+.dim-item{padding:15px 0;border-bottom:1px solid rgba(255,255,255,0.08);}
+.dim-item:last-child{border-bottom:none;}
+.dim-head{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin-bottom:5px;}
+.dim-head span{font-size:14px;font-weight:600;color:#fff;}
+.dim-head b{font-family:'Playfair Display',serif;font-size:18px;color:var(--gold);flex:0 0 auto;}
+.dim-head b.low{color:#D98A86;}
+.dim-item p{font-size:13.5px;line-height:1.6;color:rgba(255,255,255,0.6);margin:0;}
+
+/* SMOKING GUN */
+.gun-card{background:rgba(255,255,255,0.04);border:1px solid var(--gold-border);border-radius:12px;padding:32px;margin-bottom:20px;}
+.gun-card h3{color:#fff;margin-bottom:18px;}
+.gun-pair{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid rgba(255,255,255,0.1);border-radius:8px;overflow:hidden;margin-bottom:18px;}
+.gun-side{padding:20px 22px;}
+.gun-side.a{background:rgba(0,0,0,0.25);border-right:1px solid rgba(255,255,255,0.1);}
+.gun-side.b{background:rgba(192,80,77,0.12);}
+.gun-side-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:2px;margin-bottom:10px;}
+.gun-side.a .gun-side-label{color:var(--gold);}
+.gun-side.b .gun-side-label{color:#E58B88;}
+.gun-side p{font-size:14px;line-height:1.55;color:rgba(255,255,255,0.85);margin-bottom:0;}
+.gun-read{font-size:15px;line-height:1.7;color:rgba(255,255,255,0.75);margin-bottom:0;}
+.gun-read strong{color:var(--gold);}
+
+/* FINDINGS */
+.finding-card{background:var(--off-white);border-radius:10px;padding:32px;margin-bottom:20px;border-left:4px solid var(--gold);}
+.finding-num{font-family:'Playfair Display',serif;font-size:14px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:2px;margin-bottom:10px;}
+.finding-card h3{margin-bottom:14px;}
+.finding-card p{font-size:15px;line-height:1.7;color:var(--body-text);margin-bottom:14px;}
+.finding-card p:last-child{margin-bottom:0;}
+.finding-evidence{margin-top:18px;padding-top:16px;border-top:1px solid rgba(0,0,0,0.08);font-size:13px;color:var(--muted);}
+.finding-evidence strong{color:var(--gold-dark);}
+
+/* MONEY / CHART CARD */
+.money-wrap{background:var(--off-white);border:1px solid var(--gold-border);border-radius:12px;padding:36px 32px 28px;margin-top:8px;}
+.money-headline{font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,34px);font-weight:800;color:var(--gold-dark);text-align:center;margin-top:10px;}
+.money-sub{text-align:center;font-size:15px;color:var(--body-text);margin-top:6px;}
+
+.synthesis-quote{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;font-style:italic;color:var(--gold);line-height:1.4;margin:32px 0;padding:24px 0;border-top:1px solid var(--gold-border);border-bottom:1px solid var(--gold-border);}
+
+/* SOLUTION STEPS */
+.step-list{margin-top:28px;}
+.step-item{display:flex;gap:20px;align-items:flex-start;padding:22px 0;border-bottom:1px solid rgba(0,0,0,0.06);}
+.step-item:last-child{border-bottom:none;}
+.step-num{font-family:'Playfair Display',serif;font-size:22px;font-weight:800;color:var(--gold);min-width:32px;line-height:1.2;}
+.step-content h4{margin-bottom:8px;font-size:16px;}
+.step-content p{font-size:14px;color:var(--body-text);line-height:1.65;margin-bottom:0;}
+
+/* NOT NOW */
+.not-list{margin-top:24px;}
+.not-item{padding:14px 0;border-bottom:1px solid rgba(0,0,0,0.05);font-size:15px;color:var(--body-text);}
+.not-item:last-child{border-bottom:none;}
+.not-item::before{content:"·";color:var(--gold);margin-right:12px;font-weight:600;}
+
+/* GUARANTEE */
+.guarantee-box{background:var(--gold-light);border:1px solid var(--gold-border);border-radius:12px;padding:40px;margin-top:8px;}
+.guarantee-box p{font-family:'Playfair Display',serif;font-size:clamp(20px,2.6vw,26px);font-weight:700;font-style:italic;color:var(--dark-mid);line-height:1.4;margin-bottom:0;}
+
+/* CTA */
+.cta-card{text-align:center;}
+.cta-card .divider{width:60px;height:2px;background:var(--gold);margin:0 auto 32px;}
+.cta-card h2{color:#fff;}
+.cta-card p{max-width:580px;margin-left:auto;margin-right:auto;}
+.cta-reply{font-size:18px;color:#fff;font-weight:500;margin:28px 0 8px;}
+.cta-or{font-size:12px;text-transform:uppercase;letter-spacing:3px;color:rgba(255,255,255,0.25);margin:24px 0;}
+.cta-btn{display:inline-block;border:1px solid var(--gold);color:var(--gold);background:transparent;font-family:'Inter',sans-serif;font-size:15px;font-weight:600;padding:16px 36px;border-radius:6px;cursor:pointer;transition:all 0.2s;text-decoration:none;}
+.cta-btn:hover{background:var(--gold);color:#0A0A0A;}
+
+/* ABOUT */
+.about-card{background:#fff;border:1px solid var(--gold-border);border-radius:10px;padding:40px;display:flex;gap:28px;align-items:flex-start;}
+.about-photo{flex:0 0 80px;}
+.about-photo img{width:80px;height:80px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+.about-body h3{margin-bottom:2px;}
+.about-role{font-size:13px;color:var(--gold-dark);font-weight:600;margin-bottom:16px;}
+.about-body p{font-size:15px;line-height:1.7;color:var(--body-text);}
+
+.transition-card{text-align:center;}
+.transition-card .label{display:block;margin-bottom:24px;}
+.divider{width:60px;height:2px;background:var(--gold);margin:0 auto 32px;}
+.transition-card h2{color:#fff;}
+
+footer{background:#0A0A0A;border-top:1px solid rgba(201,168,76,0.15);padding:48px 40px;text-align:center;}
+.footer-logo img{height:36px;display:block;margin:0 auto 20px;}
+.footer-text{font-size:12px;color:rgba(255,255,255,0.4);line-height:1.6;}
+
+@media (max-width:768px){
+  .card{padding:60px 24px;}
+  .hero-card{padding-top:120px;padding-bottom:80px;}
+  .hero-meta{gap:24px;}
+  .gun-pair{grid-template-columns:1fr;}
+  .gun-side.a{border-right:none;border-bottom:1px solid rgba(255,255,255,0.1);}
+  .dim-read .dim-head{gap:10px;}
+  .about-card{flex-direction:column;gap:20px;}
+  nav{padding:0 20px;}
+  .nav-logo img{height:30px;}
+  footer{padding:40px 24px;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo"><img src="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png" alt="Copy Estratega"></a>
+</nav>
+
+<!-- CARD 1: HERO -->
+<section class="card dark hero-card">
+  <div class="container">
+    <div class="label">Diagnóstico de fuga de ingresos</div>
+    <h1>La lectura completa<br>de tu diagnóstico, Kino</h1>
+    <p class="hero-subtitle">En pantalla viste el titular. Esto es lo que va debajo, leído con tus propios números delante. Y te aviso ya, porque contigo tiene guasa: me he leído tu web, y este documento va a citarte a ti mismo más de una vez.</p>
+    <div class="hero-meta">
+      <div class="hero-meta-item">
+        <div class="hero-meta-label">Resultado</div>
+        <div class="hero-meta-val">Nivel 1 de 5 · Score 18/100</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="hero-meta-label">Negocio</div>
+        <div class="hero-meta-val">Agencia de marketing (ads y embudos de venta)</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="hero-meta-label">Facturación</div>
+        <div class="hero-meta-val">2.000 a 10.000 al mes</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="hero-meta-label">Preparado por</div>
+        <div class="hero-meta-val">Daniel · Copy Estratega</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 2: QUE ES -->
+<section class="card">
+  <div class="container">
+    <div class="label">Antes de empezar</div>
+    <h2>Qué es este documento</h2>
+    <p>Hiciste el diagnóstico y viste el resultado en pantalla. El desglose completo te lo doy yo. Esto es.</p>
+    <p>Está montado sobre tus respuestas, una por una, y sobre lo que vi en marketingconk.com. Y aquí está la gracia: tu web vende exactamente el sistema que, según tu test, tu propio negocio no tiene. Así que esto no es un diagnóstico normal. Es un espejo.</p>
+    <p>Lo que veo desde fuera (tu web, tu oferta, tus respuestas) te lo afirmo. Lo que no veo (tu backend, tus retainers reales) te lo pregunto. Sin inventarme nada.</p>
+  </div>
+</section>
+
+<!-- CARD 3: RADAR -->
+<section class="card dark">
+  <div class="container">
+    <div class="label">01 · La forma de tu sistema</div>
+    <h2 style="color:#fff;">Uno de cinco. Vendes el sistema que no tienes</h2>
+    <p class="chart-lead" style="color:rgba(255,255,255,0.7);margin-bottom:36px;">Tu diagnóstico en una imagen. Cada punta es una dimensión, de 0 en el centro a 100 en el borde. Mira lo pequeña que es la figura.</p>
+
+    <svg viewBox="-70 5 460 300" width="100%" style="max-width:440px;display:block;margin:0 auto 8px;" font-family="Inter,sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="160,45 255.1,114.1 218.8,225.9 101.2,225.9 64.9,114.1" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+      <polygon points="160,95 207.6,129.5 189.4,185.5 130.6,185.5 112.4,129.5" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      <line x1="160" y1="145" x2="160" y2="45" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+      <line x1="160" y1="145" x2="255.1" y2="114.1" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+      <line x1="160" y1="145" x2="218.8" y2="225.9" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+      <line x1="160" y1="145" x2="101.2" y2="225.9" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+      <line x1="160" y1="145" x2="64.9" y2="114.1" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+      <polygon points="160,107 179.02,138.82 171.76,161.18 151.18,157.14 160,145" fill="rgba(201,168,76,0.28)" stroke="#C9A84C" stroke-width="2"/>
+      <circle cx="160" cy="107" r="3.5" fill="#C9A84C"/>
+      <circle cx="179.02" cy="138.82" r="3.5" fill="#C9A84C"/>
+      <circle cx="171.76" cy="161.18" r="3.5" fill="#C9A84C"/>
+      <circle cx="151.18" cy="157.14" r="3.5" fill="#D98A86"/>
+      <circle cx="160" cy="145" r="4" fill="#D98A86"/>
+      <text x="160" y="24" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.82)">Captación <tspan font-weight="800" fill="#C9A84C">38</tspan></text>
+      <text x="278" y="110" text-anchor="start" font-size="12" fill="rgba(255,255,255,0.82)">Recurrencia <tspan font-weight="800" fill="#C9A84C">20</tspan></text>
+      <text x="230" y="248" text-anchor="start" font-size="12" fill="rgba(255,255,255,0.82)">Medición <tspan font-weight="800" fill="#C9A84C">20</tspan></text>
+      <text x="90" y="248" text-anchor="end" font-size="12" fill="rgba(255,255,255,0.82)">Arquitectura <tspan font-weight="800" fill="#D98A86">15</tspan></text>
+      <text x="42" y="110" text-anchor="end" font-size="12" fill="rgba(255,255,255,0.82)">Relación <tspan font-weight="800" fill="#D98A86">0</tspan></text>
+    </svg>
+
+    <div class="dim-read">
+      <div class="dim-item"><div class="dim-head"><span>Captación</span><b>38</b></div><p>Lo más alto que tienes, y aún así flojo. Captas por referidos y boca a boca. Para el que vende captación de clientes, es el dato más incómodo del test.</p></div>
+      <div class="dim-item"><div class="dim-head"><span>Recurrencia y recompra</span><b>20</b></div><p>Tu web predica "recurrencia real, no picos". Tu test dice que vas mes a mes. O predicas lo que no aplicas, o el test no cazó tus retainers. Eso me lo confirmas tú.</p></div>
+      <div class="dim-item"><div class="dim-head"><span>Medición</span><b>20</b></div><p>No sabes tu tasa de cierre ni cuánto te vuelve a comprar un cliente. Decides a ojo el negocio que a tus clientes les ordenas con datos.</p></div>
+      <div class="dim-item"><div class="dim-head"><span>Arquitectura de conversión</span><b class="low">15</b></div><p>Sin lead magnet, sin secuencia, y un VSL que no te convirtió. Montas embudos para otros y el tuyo está sin montar.</p></div>
+      <div class="dim-item"><div class="dim-head"><span>Relación con tu lista</span><b class="low">0</b></div><p>Clavada en el centro. No tienes lista propia. Toda la atención que generas se va sin que puedas volver a ella.</p></div>
+    </div>
+
+    <p class="chart-note">La figura casi no existe: todo pegado al centro. No es un sistema con una fuga, es un negocio que se sostiene a pulmón. Y no pasa nada, porque lo que te falta es justo lo que tú sabes montar. Solo que no te lo has montado a ti.</p>
+  </div>
+</section>
+
+<!-- CARD 4: SMOKING GUN (tu web vs tu test) -->
+<section class="card off-white">
+  <div class="container">
+    <div class="label">02 · El espejo</div>
+    <h2>Lo que le vendes a tus clientes, sobre ti</h2>
+    <p style="margin-bottom:36px;">No hace falta que te diga yo dónde está el problema. Lo tienes escrito en tu propia web, y tu test lo confirma. Uno al lado del otro:</p>
+
+    <div class="gun-card" style="background:#fff;border-color:var(--gold-border);">
+      <h3 style="color:var(--dark-mid);">Vendes "no depender del próximo lanzamiento". Y dependes.</h3>
+      <div class="gun-pair" style="border-color:rgba(0,0,0,0.1);">
+        <div class="gun-side a" style="background:var(--off-white);border-right-color:rgba(0,0,0,0.1);">
+          <div class="gun-side-label" style="color:var(--gold-dark);">Dice tu web</div>
+          <p style="color:var(--dark-mid);">"Si cada mes te inventas una estrategia nueva, no tienes un negocio. Un sistema para crear recurrencia real, no picos."</p>
+        </div>
+        <div class="gun-side b" style="background:rgba(192,80,77,0.08);">
+          <div class="gun-side-label" style="color:#C0504D;">Respondiste en el test</div>
+          <p style="color:var(--dark-mid);">"No tengo oferta recurrente. Cada mes empiezo de cero."</p>
+        </div>
+      </div>
+      <p class="gun-read" style="color:var(--body-text);">Es tu propio titular, apuntándote a ti. Ahora, siendo justo: tu web también menciona permanencia, así que igual sí tienes retainers y el test no lo cazó. <strong style="color:var(--gold-dark);">Si es así, dímelo y lo corrijo. Y si no, el mensaje que vendes es el diagnóstico que necesitas.</strong></p>
+    </div>
+
+    <div class="gun-card" style="background:#fff;border-color:var(--gold-border);">
+      <h3 style="color:var(--dark-mid);">Vendes captación de clientes. Y te captas por boca a boca.</h3>
+      <div class="gun-pair" style="border-color:rgba(0,0,0,0.1);">
+        <div class="gun-side a" style="background:var(--off-white);border-right-color:rgba(0,0,0,0.1);">
+          <div class="gun-side-label" style="color:var(--gold-dark);">Vendes</div>
+          <p style="color:var(--dark-mid);">Ads y embudos de venta para que otros consigan clientes nuevos a diario.</p>
+        </div>
+        <div class="gun-side b" style="background:rgba(192,80,77,0.08);">
+          <div class="gun-side-label" style="color:#C0504D;">Respondiste en el test</div>
+          <p style="color:var(--dark-mid);">"Mi fuente de leads es referidos y boca a boca. VSL sin conversiones. Sin lista, sin lead magnet."</p>
+        </div>
+      </div>
+      <p class="gun-read" style="color:var(--body-text);">Este no lo puedo enmarcar como duda, porque lo dijiste tú y se ve en tu web: montas la máquina de captar clientes para tus clientes, y a los tuyos los traes a mano. <strong style="color:var(--gold-dark);">El fontanero con el grifo goteando.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 5: TRANSITION -->
+<section class="card dark transition-card">
+  <div class="container">
+    <div class="label">Las fugas</div>
+    <div class="divider"></div>
+    <h2 style="color:#fff;">Por dónde se te escapa lo que ya sabes arreglar</h2>
+    <p style="font-size:16px;color:rgba(255,255,255,0.6);max-width:600px;margin:20px auto 0;">La buena noticia atraviesa todo el documento: no hay nada aquí que tú no sepas montar. Solo que no lo has montado para ti.</p>
+  </div>
+</section>
+
+<!-- CARD 6: FUGA 1 -->
+<section class="card">
+  <div class="container">
+    <div class="finding-card">
+      <div class="finding-num">Fuga 01 · la que manda</div>
+      <h3>Cada mes empiezas de cero</h3>
+      <p>Según tu test, no tienes oferta recurrente, así que el día 1 de cada mes tu facturación vuelve a cero y toda la presión cae sobre la próxima venta. Justo lo que tu web dice que le arreglas a tus clientes.</p>
+      <p>Y aquí una pregunta honesta, porque desde fuera no veo tu backend: una agencia suele vivir de retainers, y tu web habla de permanencia. ¿Es que trabajas por proyectos sueltos y de verdad empiezas de cero cada mes? ¿O sí tienes clientes recurrentes y el test se quedó corto? La respuesta cambia esta fuga entera. Si de verdad no hay suelo recurrente, esa es tu primera palanca, y la sabes construir mejor que yo.</p>
+      <div class="finding-evidence"><strong>Lo que veo:</strong> Tu web vende "recurrencia real" y menciona permanencia. <strong>Lo que respondiste:</strong> sin oferta recurrente, cada mes desde cero. <strong>A confirmar por ti:</strong> tus retainers reales.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 7: FUGA 2 + PROYECCION -->
+<section class="card off-white">
+  <div class="container">
+    <div class="finding-card" style="background:#fff;">
+      <div class="finding-num">Fuga 02</div>
+      <h3>Generas atención y no la conviertes en nada tuyo</h3>
+      <p>Tienes tráfico y visibilidad, pero ningún lead magnet capturando emails y ninguna lista. La atención que generas se ve una vez, gusta, y se va. Y el VSL que montaste no te convirtió. Toda la maquinaria que le pones a un cliente, a ti te falta.</p>
+      <p>Es la palanca más rápida que tienes, porque no partes de cero de conocimiento: sabes exactamente qué montar. Una puerta que capture, una secuencia que nutra, y dejas de depender de que alguien te recomiende para comer.</p>
+      <div class="finding-evidence"><strong>Tus datos:</strong> Fuente de leads: referidos y boca a boca · Lead magnet: ninguno · Lista de email: ninguna · "Todavía no convierto mi audiencia de forma consistente" · VSL sin conversiones.</div>
+    </div>
+
+    <div class="money-wrap">
+      <p class="chart-lead" style="text-align:center;margin:0 auto 20px;">El suelo recurrente que le vendes a tus clientes, en el tuyo:</p>
+      <svg viewBox="0 0 320 200" width="100%" style="max-width:400px;display:block;margin:0 auto;" font-family="Inter,sans-serif" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="40,160 300,50 300,160" fill="rgba(201,168,76,0.18)"/>
+        <line x1="40" y1="160" x2="300" y2="50" stroke="#C9A84C" stroke-width="2.5"/>
+        <line x1="40" y1="160" x2="300" y2="160" stroke="rgba(0,0,0,0.28)" stroke-width="1.5" stroke-dasharray="5 5"/>
+        <circle cx="300" cy="50" r="4.5" fill="#A8893A"/>
+        <text x="296" y="43" text-anchor="end" font-size="16" font-weight="800" fill="#A8893A">5.000/mes</text>
+        <text x="44" y="152" font-size="11" fill="#999">Hoy: 0</text>
+        <text x="40" y="180" font-size="10" fill="#999">mes 0</text>
+        <text x="300" y="180" text-anchor="end" font-size="10" fill="#999">mes 12</text>
+      </svg>
+      <div class="money-headline">Un suelo que hoy es cero</div>
+      <p class="money-sub">Lo que cobras antes de empezar el mes, en vez de salir a cazar desde el día 1.</p>
+    </div>
+    <p class="chart-note" style="color:var(--muted);">La línea de hoy es plana en cero porque, según tu test, empiezas de cero cada mes. La franja dorada asume pasar a retainer, poco a poco, a los clientes que ya cierras, hasta unos 10 a 500 al mes. Es aritmética, no promesa, y si ya tienes recurrencia, esta gráfica te sobra, dímelo.</p>
+  </div>
+</section>
+
+<!-- CARD 8: FUGA 3 -->
+<section class="card">
+  <div class="container">
+    <div class="finding-card">
+      <div class="finding-num">Fuga 03</div>
+      <h3>Decides a ojo lo que a tus clientes les ordenas con datos</h3>
+      <p>No sabes tu tasa de cierre y solo tienes una idea aproximada de cuántos clientes te recompran. Ese número decide cuánto puedes invertir en captar: si un cliente vale dos ventas, puedes pagar el doble por conseguirlo que quien solo mira la primera.</p>
+      <p>Y es raro de decir a un tío que vive de los datos de otros, pero es lo que hay: revisar tus últimos clientes, cuántos te compraron algo más, es un porcentaje y veinte minutos. Con eso empiezas a llevar tu negocio como llevas los de tus clientes.</p>
+      <div class="finding-evidence"><strong>Tus datos:</strong> Tasa de cierre: no la sabes · Recompra: idea aproximada · Venta a mano (DMs, llamadas, propuestas) · Medición 20/100.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 9: EL PATRON -->
+<section class="card off-white">
+  <div class="container">
+    <div class="label">El patrón que las ata</div>
+    <h2>El fontanero con el grifo goteando</h2>
+    <p>Las tres fugas son la misma, y es la más humana que hay: aplicas a los negocios de otros la disciplina que no te aplicas al tuyo. Montas sistemas, hablas de recurrencia, ordenas el caos ajeno. Y el tuyo lo llevas a pulmón, porque el del zapatero siempre es el último par que se arregla.</p>
+    <div class="synthesis-quote">No te falta talento ni conocimiento. Te falta ser tu propio cliente.</div>
+    <p>Y esa es la mejor noticia de todo el diagnóstico, porque tu caso no es de los que hay que enseñar de cero. Es de los que ya lo saben todo y solo necesitan sentarse a hacérselo. Cada pieza que aquí te falta, tú ya la has montado veinte veces para otros.</p>
+    <p>Lo único nuevo para ti es el copy y el mensaje: la parte de convertir esa maquinaria en palabras que vendan. Que da la casualidad de que es lo mío, y lo que tu agencia no ofrece.</p>
+  </div>
+</section>
+
+<!-- CARD 10: LO QUE NO HARIA -->
+<section class="card">
+  <div class="container">
+    <div class="label">Antes de la salida</div>
+    <h2>Lo que no haría ahora</h2>
+    <div class="not-list">
+      <div class="not-item">No buscaría más clientes por referidos. Cada mes cazando desde cero es la rueda de la que tú mismo dices que hay que salir. Primero el sistema, después el volumen.</div>
+      <div class="not-item">No relanzaría el VSL igual. Un VSL sin conversiones no se repite más fuerte, se arregla lo de detrás: la oferta, la captura y la secuencia que lo sostiene.</div>
+      <div class="not-item">No seguiría decidiendo a ojo. Sacar tu cierre y tu recompra es lo más barato y lo primero, justo lo que le exigirías a un cliente antes de escalarle nada.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 11: LA SALIDA -->
+<section class="card off-white">
+  <div class="container">
+    <div class="label">03 · La salida</div>
+    <h2>El orden</h2>
+    <p>A ti no te explico el cómo, lo vendes tú. Lo que aporto es el orden, la mirada de fuera sin el sesgo de estar dentro, y el copy que a tu maquinaria le falta.</p>
+    <div class="step-list">
+      <div class="step-item">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h4>Primero, tu propia puerta de captura</h4>
+          <p>Un lead magnet y una lista, para dejar de depender del boca a boca. Lo que le montas a un cliente, montado para ti. Y con el copy afinado, que ahí es donde tu VSL se cayó.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h4>Después, saca tus dos números</h4>
+          <p>Tu tasa de cierre y tu recompra. Veinte minutos que te dicen cuánto puedes invertir en captar y si tu negocio aguanta escalar. Antes de nada más.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h4>Y monta tu suelo recurrente</h4>
+          <p>Si de verdad no lo tienes, pasar a los clientes que ya cierras a algo recurrente. Cobrar antes de empezar el mes, exactamente lo que tu web promete y tú vas a poder demostrar en tu propia casa.</p>
+        </div>
+      </div>
+    </div>
+    <div class="synthesis-quote">La regla es una sola: sé tu propio mejor caso de estudio antes de venderle a nadie que puede serlo.</div>
+    <p>No necesitas aprender nada. Necesitas sentarte a hacerte a ti lo que le haces a los demás, con la única pieza que no es tuya, el copy, puesta por alguien que la hace bien.</p>
+  </div>
+</section>
+
+<!-- CARD 12: GARANTIA -->
+<section class="card">
+  <div class="container">
+    <div class="label">Mi compromiso</div>
+    <h2>La garantía</h2>
+    <div class="guarantee-box">
+      <p>Sistema montado en 15 días y generando leads cualificados en 30. Si no lo conseguimos, seguimos trabajando sin coste hasta que lo hagamos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 13: CTA -->
+<section class="card dark cta-card" style="border-top:1px solid rgba(201,168,76,0.3);">
+  <div class="container">
+    <div class="label">El siguiente paso</div>
+    <div class="divider"></div>
+    <h2>Y aquí encajamos tú y yo</h2>
+    <p>Tú montas ads y embudos, y no ofreces copy. Yo hago justo eso. Así que hay dos conversaciones: montarte a ti tu propio sistema, y meter mi copy en los embudos que le montas a tus clientes, para que conviertan más. Las dos me apetecen. Dime por cuál empezamos.</p>
+    <div class="cta-reply">Respóndeme por WhatsApp y lo hablamos.</div>
+    <div class="cta-or">o</div>
+    <a class="cta-btn" onclick="Calendly.initPopupWidget({url:'https://calendly.com/danigdecelis/meeting'});return false;" href="#">Reservar una llamada</a>
+  </div>
+</section>
+
+<!-- CARD 14: SOBRE DANIEL -->
+<section class="card off-white">
+  <div class="container">
+    <div class="label">Quién te lo prepara</div>
+    <h2>Sobre Daniel</h2>
+    <div class="about-card">
+      <div class="about-photo"><img src="https://danigdecelis.github.io/factor-rh-strategy/daniel-photo.png" alt="Daniel García de Celis"></div>
+      <div class="about-body">
+        <h3>Daniel García de Celis</h3>
+        <div class="about-role">Copy Estratega</div>
+        <p>Construyo activos digitales para gente que ya tiene los resultados pero todavía no tiene el sistema que los convierte en clientes nuevos de forma predecible. Emails, landings, herramientas de captación, secuencias. No vendo método. Construyo lo que falta y se mide si funciona.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo"><img src="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png" alt="Copy Estratega"></div>
+  <div class="footer-text">Diagnóstico de fuga de ingresos · Preparado para Kino Bernabeu<br>2026 Copy Estratega. Todos los derechos reservados.</div>
+</footer>
+
+<script>if(!sessionStorage.getItem("_t")){sessionStorage.setItem("_t","1");var _u=encodeURIComponent(navigator.userAgent);var _l=navigator.language;var _r=new URLSearchParams(window.location.search).get('r')||'';fetch("https://script.google.com/macros/s/AKfycbwC8v4oAIgA7j9OfOMxjVQ1OkfB4cBHiRLPknvz1rBFwaW8bBnYJpzBtuSHnKAyIUr6IQ/exec?prospect=Kino+Bernabeu&page=kino-bernabeu-strategy&ua="+_u+"&lang="+_l+"&r="+_r)}</script>
+
+</body>
+</html>
